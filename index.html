@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="icons-batería.png" />
+    <script
+      src="https://kit.fontawesome.com/baadca43b9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>CV Proyecto Final</title>
+  </head>
+  <body>
+    <h1 id="home">CURRICULUM VITAE</h1>
+
+    <nav>
+      <a href="#Datos">Inicio</a>
+      <a href="#Formacion">Formacion Académica</a>
+      <a href="#Experiencia">Experiencia Laboral</a>
+      <a href="#Habilidad">Habilidades</a>
+      <a href="contacto.html">Contacto</a>
+
+    </nav>
+
+    <div class="profile"></div>
+
+    <div class="datos">
+      <h2>Datos Personales</h2>
+      <ul type="circle">
+        <li><b>Nombres: </b> Roque Ismael</li>
+        <li><b>Apellido: </b> Lecote</li>
+        <li><b>Dirección: </b> Mitre 658</li>
+        <li><b>Fecha de nacimiento:</b> 03/10/1990</li>
+        <li><b>Nacionalidad: </b> Argentino</li>
+        <br />
+      </ul>
+    </div>
+
+    <div
+      id="objetivos"  
+    >
+      <p id="borrar">
+        "Mi <em>objetivo</em> principal es desarrollarme en un ambiente de
+        trabajo propicio que me lleve a nuevas fronteras de conocimiento y
+        aprendizaje, con el fin de alcanzar una mejora en todos los aspectos.
+        Colaborar con la investigación, desarrollo y programación de nuevos
+        proyectos".-
+      </p>
+    
+    </div>
+    <button id= "boton_objetivo" type="button" onclick="document.getElementById('borrar').style.display='none'">Saltear objetivo</button>
+
+    <h2 id="Formacion">Formacion Académica</h2>
+
+    <ul type="square">
+      <li>
+        <b>Educación Primaria:</b> Escuela Primaria
+        <a
+          target="_blank"
+          href="https://www.uncuyo.edu.ar/estudios/escuelas-primarias"
+          >UNC</a
+        >
+        en San Rafael, Mendoza desde 1995 a 2001.-
+      </li>
+      <br />
+      <li>
+        <b>Educación Secundaria:</b> Comercial II "Islas Malvinas" en San
+        Rafael, Mendoza desde 2002 a 2006.-
+      </li>
+      <br />
+      <li>
+        <b>Educación Terciaria de grado:</b> Ingeniería en Informática
+        <a
+          target="_blank"
+          href="https://carreras.unsl.edu.ar/carreras/ing-informatica"
+          >UNSL</a
+        >
+        , San Luis desde 2007 a 2014.-
+      </li>
+    </ul>
+    <br />
+
+    <h2 id="Experiencia">Experiencia Laboral</h2>
+    <ul>
+      <li>
+        Pasante en "Call center La Punta" Area informática, San Luis de Marzo
+        2015 a Diciembre 2015.-
+      </li>
+      <li>
+        Empleado en "Casa Mundo Computación", San Luis de Abril 2016 a Diciembre
+        2017.-
+      </li>
+      <li>
+        Profesor en UNSL, Facultad de Ingeniería en Informática San Luis de
+        Febrero 2018 a Diciembre 2020.-
+      </li>
+      <li>
+        Programador Jr en "Licmas", España desde Enero 2022 a la actualidad.-
+      </li>
+    </ul>
+    <br />
+
+    <h2 id="Habilidad">Habilidades y Estudios complementarios</h2>
+    <ol></ol>
+    <ol type="I">
+      <li>Inglés: Nivel Avanzado</li>
+      <li>Office: Nivel Avanzado</li>
+      <li>Post Grado en Inteligencia Artificial</li>
+    </ol>
+
+    <div class="home">
+      <a href="#home"> <b>Inicio</b> </a>
+    </div>
+    <button id="print" onclick="window.print()">Imprimir hoja</button>
+
+    <script src="Js/proyecto.js"></script>
+  </body>
+</html>
